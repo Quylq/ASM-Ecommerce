@@ -1,0 +1,12 @@
+D:\ASM Ecommerce\DataBase-Ecommerce\Persistence\bin\Debug\net6.0\Persistence.deps.json
+D:\ASM Ecommerce\DataBase-Ecommerce\Persistence\bin\Debug\net6.0\Persistence.dll
+D:\ASM Ecommerce\DataBase-Ecommerce\Persistence\bin\Debug\net6.0\Persistence.pdb
+D:\ASM Ecommerce\DataBase-Ecommerce\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
+D:\ASM Ecommerce\DataBase-Ecommerce\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASM Ecommerce\DataBase-Ecommerce\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
+D:\ASM Ecommerce\DataBase-Ecommerce\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
+D:\ASM Ecommerce\DataBase-Ecommerce\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
+D:\ASM Ecommerce\DataBase-Ecommerce\Persistence\obj\Debug\net6.0\Persistence.dll
+D:\ASM Ecommerce\DataBase-Ecommerce\Persistence\obj\Debug\net6.0\refint\Persistence.dll
+D:\ASM Ecommerce\DataBase-Ecommerce\Persistence\obj\Debug\net6.0\Persistence.pdb
+D:\ASM Ecommerce\DataBase-Ecommerce\Persistence\obj\Debug\net6.0\ref\Persistence.dll
