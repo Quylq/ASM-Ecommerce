@@ -1,14 +1,30 @@
 ﻿using BL;
 using Persistence;
 
-Console.Write("Nhap ma nhan vien: ");
-int emp_no = Convert.ToInt32(Console.ReadLine());
+Console.OutputEncoding = System.Text.Encoding.Unicode;
+Console.InputEncoding = System.Text.Encoding.Unicode;
 
-EmployeeBL employeeBL = new EmployeeBL();
+Console.Write("Nhập Tên Đăng Nhập: ");
+string acc_name = Console.ReadLine();
+Console.Write("Nhập Mật Khẩu: ");
+string acc_pass = Console.ReadLine();
 
-Employee emp =  employeeBL.GetEmployeeById(emp_no);
+AccountBL accountBL = new AccountBL();
 
-if (emp != null)
+Account acc =  accountBL.GetAccountByName(acc_name);
+
+if (acc != null)
 {
-    Console.WriteLine($"Ho va ten nhan vien: {emp.EmployeeFirstName} {emp.EmployeeLastName}");
+    if (acc_pass == acc.AccountPassword)
+    {
+        Console.WriteLine($"Đăng nhập thành công");
+    }
+    else
+    {
+        Console.WriteLine($"Sai mật khẩu");
+    }
+}
+else
+{
+    Console.WriteLine($"Tài khoản không tồn tại");
 }
