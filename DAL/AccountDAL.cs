@@ -10,7 +10,7 @@ namespace DAL
 
         public Account GetAccountByName(string acc_name)
         {
-            query = @"select Account_ID, Account_Name, Account_Password from accounts where Account_Name = " +  "'" + acc_name + "'";
+            query = $"select Account_ID, Account_Name, Account_Password from accounts where Account_Name = '{acc_name}'";
 
             //Mở kết nối đến database
             DbHelper.OpenConnection();
@@ -39,7 +39,7 @@ namespace DAL
 
         public void SaveAccount(string acc_name, string acc_pass, string acc_role)
         {
-            query = @"Insert into Accounts (Account_Name, Account_Password , Role) value ( '" + acc_name + "', '" + acc_pass + "', '" + acc_role +"')";
+            query = $"Insert into Accounts (Account_Name, Account_Password , Role) value ( '{acc_name}', '{acc_pass}', '{acc_role}')";
 
             //Mở kết nối đến database
             DbHelper.OpenConnection();
